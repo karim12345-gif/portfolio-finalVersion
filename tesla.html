@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevJane Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                The title <strong>of my project</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Tesla clone 🚘 ⚡️</p>
+            <img src="img/tesla1.jpeg" alt="" class="intro__img" width="50" height="250">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>Why did I create this project? Will first off I like anything related to coding. I was inspired to challenge myself and build the same UI as the Original Tesla website.</p>
+            <img src="img/tesla1.jpeg" alt="" width="150",height="150">
+            <p>Tesla ⚡️ clone built with React.js. Through out this project I have used React-Router which is the standard routing library for React. 
+                With Firebase for authentication, it saves a lot of time to develop web service methods for authentication,
+                 in other words, I can avoid developing server-side techniques for various kinds of confirmation in case I want to add social logins like google and apple.
+                  All that will be managed efficiently by Firebase, with firebase authentication I can also get good analytics and demographic information of the users.
+                   I also applied  Redux which helps with writing JavaScript apps that behave consistently across client, server, 
+                   and native environments and are easy to test,and Material-UI.</p>
+
+
+                   <p>
+                    So what to expect from this project? 
+                    </p>
+                    <p>
+                    First off, the home page illustrates the Tesla home page with numerous buttons,
+                     you can create an account and login to your Tesla account where you will see different cars there, the button on the top right,
+                      also recognised as the "Hamburger" works and you can close it as well, finally after logging in you can either sign out or Logout. 
+                   </p>
+            
+
+            <a class="tesla" href="https://tesla-clone-d43eb.web.app"><button>Tesla-clone</button></a>
+            
+        </div>
+        
+        
+         <!-- Footer -->
+         <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="karim991996@gmail.com" class="footer__link">karim991996@gmail.com</a>
+            <ul class="social-list">
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/karim12345-gif?tab=repositories">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/karim-salim/">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                </li>
+
+
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

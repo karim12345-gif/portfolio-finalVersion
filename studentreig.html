@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevJane Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                The title <strong>of my project</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Student registration 👨‍🎓</p>
+            <img src="img/students.jpeg" alt="" class="intro__img"width="50",height="150">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>Why did I create this project? </p>
+            <img src="img/student-registration.jpeg" alt=""width="200",height="150">
+            <p>
+                I created this project because java is one of my favourites languages to use, 
+                and I wanted to familiarize myself with the new framework Spring Boot since its been getting famous and huge companies like
+                 Udemy, Netflix, Walmart and other big entities. 
+            </p>
+            <p>I used Spring Boot to post, get, put and delete students information from the database. 
+                In this project, I used API Layer, Dependency Injection, Properties file,
+                 Creating and connecting to Database, JPA and Entity,
+                  JPA Repository. With post mapping,
+                   we will check the database if the email exists or not, if it doesn't then save it in the current database.
+            </p>
+
+            <a class="students" href="demo.zip"><button>Student Registration </button></a>
+           
+        </div>
+        
+        
+         <!-- Footer -->
+         <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="karim991996@gmail.com" class="footer__link">karim991996@gmail.com</a>
+            <ul class="social-list">
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/karim12345-gif?tab=repositories">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/karim-salim/">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                </li>
+
+
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

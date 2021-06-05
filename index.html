@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevJane Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body> 
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span> <!--the button of the hamburger -->
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Karim Tariq </strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Software Developer</p>
+            <img src="img/karim.jpeg" alt="a picture of Karim Tariq smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Front-end Development</h3>
+                    <p>I really like to clone real website out there, such as facebook, Gmail, Tesla, Twitter and Instagram, Using React.js, JavaScript, HTML and CSS. </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Software Development</h3>
+                    <p>I have some experince with various Languages, I used Swift to create mobile apps, C# to create games with Unity engine as well during my College years for different Courses,
+                         Java for user Login and Regstration Backend + Email Verification with Spring Boot.HTML,CSS,JavaScript and React.js to create UI websites, I am also learning React.Native to create apps as well.
+                          </p>
+                </div> <!-- / service -->
+                
+                <!-- <div class="service">
+                    <h3></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> / service -->
+
+                <div class="service">
+                    <h3>Teaching</h3>
+                    <p>I lecture at the German University Of Technology,
+                         I support my professor's with their programs and sometimes I take over the lecture and tutorials,
+                          I taught Introduction To Programming using python,
+                           Theory Of Computing, Probability And Statistics and Data Structure using c++. 
+                    </p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">About Me</h2>
+           <p class="section__subtitle section__subtitle--about">Intern at the German University </p>
+           
+           <div class="about-me__body">
+               <p> Software Developer with 2 years of experience in the educational and Technology domain looking for a development position. 
+                   I am an enthusiastic team player committed to efficiently resolving project issues. 
+                   Energy and willingness to innovate and learn new technologies, quick learner and passionate about development.</p>
+               <p> <span class="skills">Skills:</span> Java, JavaScript, React.js, HTML, CSS,
+            MYSQL, PostgreSQL, C#, Object Oriented Programming, Unity, Python, Spring Boot, Swift. </p>
+
+           </div>
+           
+           <img src="img/karim.jpeg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Projects</h2>
+            <p class="section__subtitle  section__subtitle--work">A Selection Of my range of work</p>
+            
+            <div class="portfolio">
+
+                  <!-- Portfolio item 07   Done -->
+                  <a href="tesla.html" class="portfolio__img">
+                    <img src="img/tesla1.jpeg" alt="" class="tesla" width="300" height="300">
+                </a>
+
+                <!-- Portfolio item 07    DOne  -->
+                <a href="twitter.html" class="portfolio__img">
+                    <img src="img/twitter.jpg" alt="" class="twitter" width="300" height="300">
+                </a>
+
+                <!-- Portfolio item 01  Done -->
+                <a href="weather.html" class="portfolio__img">
+                    <img src="img/weather.png" alt="" class="weather" width="350" height="350">
+                </a>
+                
+                <!--  Flash chat  Done -->
+                <a href="flashChat.html" class="portfolio__img">
+                    <img src="img/flashchat.png" alt="" class="FlashChat" width="350" height="350">
+                </a>
+                
+                <!-- Pregisttation is the studetn java -->
+                <a href="studentreig.html" class="portfolio__img">
+                    <img src="img/registration.jpeg" alt="" class="registration" width="300" height="300">
+                </a>
+
+                <!-- Portfolio item 05 -->
+                <a href="facebook.html" class="portfolio__img" >
+                    <img src="img/facebook.jpeg" alt="" class="facebook" width="350" height="350">
+                </a>
+
+               
+                <a href="glasses.html" class="portfolio__img">
+                    <img src="img/smartglasses.png" alt="" class="glasses" width="350" height="350">
+                </a>
+
+                  <!--  Done  -->
+                  <a href="todolist.html" class="portfolio__img">
+                    <img src="img/TODOList.jpeg" alt="" class="`dolist" width="350" height="350">
+                </a>
+
+
+                         <!-- Pballon unity game  maybe i can add a video of the game 
+                <a href="file:///Users/karimtariq9919961/Desktop/Portfolio-Clone/ballon.html" class="ballon">
+                    <img src="img/ballom.jpg" alt="" class="ballon" width="300" height="300">
+                </a> -->
+
+                 
+
+               
+
+
+                
+                
+            </div>
+        </section>
+        
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="karim991996@gmail.com" class="footer__link">karim991996@gmail.com</a>
+            <ul class="social-list">
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/karim12345-gif?tab=repositories">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/karim-salim/">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                </li>
+
+
+            </ul>
+        </footer>
+
+
+        <!-- adding the javascript index folder-->
+
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
