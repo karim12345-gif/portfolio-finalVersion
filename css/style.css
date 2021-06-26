@@ -152,6 +152,12 @@ strong {
 
 }
 
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*weather app*/
 
